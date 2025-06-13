@@ -1,0 +1,79 @@
+/* Fuente y ajustes generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f7f3ef;
+  color: #222;
+}
+
+/* Encabezado (header) */
+header {
+  background-color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #af7f5c;
+}
+
+/* Sección principal (hero) */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #fffdfb;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  background-color: #af7f5c;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero button:hover {
+  background-color: #a26d4f;
+}
+
+/* Pie de página */
+footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 50px;
+  border-top: 1px solid #ddd;
+}
